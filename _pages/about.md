@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student, <a href='https://sail.usc.edu'>SAIL (Signal Analysis and Interpretation Lab), University of Southern California</a>
+subtitle: PhD Student, <a href='https://sail.usc.edu'>SAIL (Signal Analysis and Interpretation Lab)</a>, University of Southern California
 
 profile:
   align: right
   image: IMG_9736.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>RTH 318<br></p>
+    <p>RTH 318, University of Southern California<br></p>
     <p>3710 McClintok Ave<br></p>
     <p>Los Angeles, CA 90089</p>
 
