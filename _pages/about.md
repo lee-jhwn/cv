@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Student, <a href='https://sail.usc.edu'>SAIL (Signal Analysis and Interpretation Lab), University of Southern California</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: IMG_9736.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>RTH 318</p>
-    <p>3710 McClintok Ave</p>
+    <p>RTH 318<br></p>
+    <p>3710 McClintok Ave<br></p>
     <p>Los Angeles, CA 90089</p>
 
 news: true # includes a list of news items
@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I am a PhD student at [SAIL (Signal Analysis and Interpretation Lab)](https://sail.usc.edu), University of Southern California, advised by [Shrikanth (Shri) Narayanan](https://sail.usc.edu/people/shri.html). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
