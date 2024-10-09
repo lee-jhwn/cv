@@ -18,8 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I am a PhD student at [SAIL (Signal Analysis and Interpretation Lab)](https://sail.usc.edu), University of Southern California, advised by [Shrikanth (Shri) Narayanan](https://sail.usc.edu/people/shri.html). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I am a PhD student at [SAIL (Signal Analysis and Interpretation Lab)](https://sail.usc.edu), University of Southern California, advised by [Shrikanth (Shri) Narayanan](https://sail.usc.edu/people/shri.html). My research interests include but are not limited to: speech synthesis, computational linguistics, brain-computer-interfaces (BCIs), speech/language decoding from neural signals, and so on.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to that, I worked at Language and Voice Team, Samsung Research for 2.5 years (supervised by [Chanwoo Kim](https://chanwcom.github.io)), focusing on making text-to-speech models more personalized, multi-lingual, multi-style, controllable, on-device-friendly, and secure. I graduated Summa Cum Laude from [Seoul National University](https://snu.ac.kr) with a B.S. in Electrical and Computer Engineering and a B.A. in Linguistics.
