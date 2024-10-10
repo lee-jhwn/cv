@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student, <a href='https://sail.usc.edu'>SAIL (Signal Analysis and Interpretation Lab)</a>, University of Southern California
+subtitle:# PhD Student, <a href='https://sail.usc.edu'>SAIL (Signal Analysis and Interpretation Lab)</a>, University of Southern California
 
 profile:
   align: right
