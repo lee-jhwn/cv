@@ -35,7 +35,8 @@ window.PUBS = [
   "award": null,
   "first": true,
   "links": {
-   "paper": "https://arxiv.org/abs/2603.04840"
+   "paper": "https://arxiv.org/abs/2603.04840",
+   "code": "https://github.com/lee-jhwn/multimodal-speech-biosignals"
   }
  },
  {
@@ -61,7 +62,8 @@ window.PUBS = [
   "award": null,
   "first": true,
   "links": {
-   "paper": "https://arxiv.org/abs/2509.21447"
+   "paper": "https://arxiv.org/abs/2509.21447",
+   "project": "https://lee-jhwn.github.io/arti-6/"
   }
  },
  {
