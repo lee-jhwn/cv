@@ -397,7 +397,9 @@ window.PUBS = [
   "award": null,
   "first": true,
   "links": {
-   "paper": "https://arxiv.org/abs/2505.13814"
+   "paper": "https://arxiv.org/abs/2505.13814",
+   "demo": "https://lee-jhwn.github.io/IS25-emg-ema/",
+   "code": "https://github.com/lee-jhwn/IS25-emg-ema"
   }
  },
  {
@@ -443,7 +445,9 @@ window.PUBS = [
   "award": null,
   "first": true,
   "links": {
-   "paper": "https://arxiv.org/abs/2501.04844"
+   "paper": "https://arxiv.org/abs/2501.04844",
+   "demo": "https://lee-jhwn.github.io/icassp25-fesde-phoneme/",
+   "code": "https://github.com/lee-jhwn/icassp25-fesde-phoneme"
   }
  },
  {
@@ -541,7 +545,8 @@ window.PUBS = [
   "award": null,
   "first": true,
   "links": {
-   "paper": "https://arxiv.org/abs/2406.08644"
+   "paper": "https://arxiv.org/abs/2406.08644",
+   "code": "https://github.com/lee-jhwn/fesde"
   }
  },
  {

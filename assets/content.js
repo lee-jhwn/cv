@@ -28,4 +28,10 @@ window.DEMOS = [
     links: [["Demo", "https://microsoft.github.io/real-time-music-sketching/"]] },
   { title: "Codec Trait Explorer", tag: "Speech", text: "Interactive map of where speaker traits live across codec codebooks.",
     links: [["Explorer", "https://jihwanlee15.github.io/codec-trait-depth/"], ["Paper", "https://arxiv.org/abs/2610.20955"]] },
+  { title: "Articulatory Features from Surface EMG", tag: "Biosignal", text: "Predicting articulatory features from surface EMG during speech production (Interspeech 2025).",
+    links: [["Samples", "https://lee-jhwn.github.io/IS25-emg-ema/"], ["Code", "https://github.com/lee-jhwn/IS25-emg-ema"],
+            ["Paper", "https://arxiv.org/abs/2505.13814"]] },
+  { title: "Listened Speech Decoding from EEG", tag: "Brain", text: "Reconstructing listened speech from EEG (ICASSP 2025), building on FESDE (Interspeech 2024).",
+    links: [["Samples", "https://lee-jhwn.github.io/icassp25-fesde-phoneme/"], ["Code (ICASSP 2025)", "https://github.com/lee-jhwn/icassp25-fesde-phoneme"],
+            ["Code (Interspeech 2024)", "https://github.com/lee-jhwn/fesde"]] },
 ];
