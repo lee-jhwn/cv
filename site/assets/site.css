@@ -49,6 +49,9 @@ a { color: var(--accent); }
 .hero h1 { font-family: Fraunces, Georgia, serif; font-weight: 500; font-size: 3.1rem; line-height: 1.08;
   margin: 0 0 1.1rem; letter-spacing: -.02em; }
 .hero h1 em { font-style: italic; color: var(--accent); }
+.hero h1.name { font-size: 3rem; margin: 0 0 1.2rem; }
+.hero .native { display: inline-block; font-family: "Noto Serif KR", "Apple SD Gothic Neo", "Malgun Gothic", serif;
+  font-size: .42em; font-weight: 500; color: var(--muted); letter-spacing: .02em; vertical-align: .35em; }
 .hero p { color: #3d4050; line-height: 1.65; max-width: 620px; margin: 0 0 1rem; }
 .hero img { width: 210px; height: 210px; object-fit: cover; border-radius: 18px; box-shadow: 0 10px 30px rgba(20, 20, 30, .10); }
 .profile { display: flex; flex-direction: column; gap: 1rem; }
