@@ -25,7 +25,7 @@ window.DEMOS = [
     links: [["Samples", "https://lee-jhwn.github.io/myocodec/"], ["Code", "https://github.com/lee-jhwn/myocodec"],
             ["Weights", "https://huggingface.co/lee-jhwn/myocodec"], ["Paper", "https://arxiv.org/abs/2609.36687"]] },
   { title: "RTMS", tag: "Music", text: "Real-time music sketching: low-latency generation that follows live user input.",
-    links: [["Demo coming soon", null]] },
+    links: [["Demo", "https://microsoft.github.io/real-time-music-sketching/"]] },
   { title: "Codec Trait Explorer", tag: "Speech", text: "Interactive map of where speaker traits live across codec codebooks.",
     links: [["Explorer", "https://jihwanlee15.github.io/codec-trait-depth/"], ["Paper", "https://arxiv.org/abs/2610.20955"]] },
 ];
