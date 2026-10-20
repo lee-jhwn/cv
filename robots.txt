@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://lee-jhwn.github.io/cv/sitemap.xml
