@@ -27,5 +27,5 @@ window.DEMOS = [
   { title: "RTMS", tag: "Music", text: "Real-time music sketching: low-latency generation that follows live user input.",
     links: [["Demo coming soon", null]] },
   { title: "Codec Trait Explorer", tag: "Speech", text: "Interactive map of where speaker traits live across codec codebooks.",
-    links: [["Paper", "https://arxiv.org/abs/2610.20955"], ["Explorer coming soon", null]] },
+    links: [["Explorer", "https://jihwanlee15.github.io/codec-trait-depth/"], ["Paper", "https://arxiv.org/abs/2610.20955"]] },
 ];
