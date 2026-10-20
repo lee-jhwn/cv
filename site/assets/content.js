@@ -11,11 +11,12 @@ window.NEWS = [
 
 // Research-theme cards; each filters publications by one tag.
 window.THEMES = [
-  ["Biosignal", "Biosignal-to-Speech", "Decoding speech and articulation from EEG and surface EMG."],
-  ["Articulatory", "Articulatory Speech", "Real-time MRI of the vocal tract and articulatory representations."],
-  ["Streaming", "Streaming Codecs", "Low-latency neural codecs for speech and biosignals."],
-  ["Speech", "Speech Generation & Analysis", "TTS, accents, and benchmarks for speech foundation models."],
-  ["Music", "Real-time Music", "Interactive music generation that follows live input."],
+  ["Speech", "Speech", "Speech synthesis, accents, and benchmarks for speech foundation models."],
+  ["Articulatory", "Articulatory", "Real-time MRI of the vocal tract and articulatory representations."],
+  ["Brain", "Brain", "Speech decoding from EEG, and brain activity during speech production."],
+  ["Biosignal", "Biosignal", "Surface EMG and multimodal biosignals during speech production."],
+  ["Streaming", "Streaming", "Low-latency neural codecs for speech and biosignals."],
+  ["Music", "Music", "Interactive music generation that follows live input."],
 ];
 
 // A link of null renders as plain text (e.g. "coming soon").

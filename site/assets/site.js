@@ -1,6 +1,6 @@
 // Renders news, theme cards, publications and demos from pubs.js and content.js.
 
-const TAGS = ["Speech", "Biosignal", "Brain", "Articulatory", "Streaming", "Music"];
+const TAGS = ["Speech", "Articulatory", "Brain", "Biosignal", "Streaming", "Music"];
 const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const tag = t => `<span class="tag tag-${t}">${t}</span>`;
 const $ = sel => document.querySelector(sel);
@@ -28,7 +28,6 @@ function pubHTML(p) {
 function initPubs() {
   const state = { tag: null, first: false };
   const list = $("#pubs"), bar = $("#filters");
-  const count = t => PUBS.filter(p => p.tags.includes(t)).length;
 
   function draw() {
     const ps = PUBS.filter(p => (!state.tag || p.tags.includes(state.tag)) && (!state.first || p.first));
@@ -39,8 +38,8 @@ function initPubs() {
   }
   function drawBar() {
     bar.innerHTML =
-      `<button class="chip ${!state.tag ? "on" : ""}" data-t="" aria-pressed="${!state.tag}">All <span>${PUBS.length}</span></button>` +
-      TAGS.map(t => `<button class="chip ${state.tag === t ? "on" : ""}" data-t="${t}" aria-pressed="${state.tag === t}">${t} <span>${count(t)}</span></button>`).join("") +
+      `<button class="chip ${!state.tag ? "on" : ""}" data-t="" aria-pressed="${!state.tag}">All</button>` +
+      TAGS.map(t => `<button class="chip ${state.tag === t ? "on" : ""}" data-t="${t}" aria-pressed="${state.tag === t}">${t}</button>`).join("") +
       `<label class="first"><input type="checkbox" ${state.first ? "checked" : ""}> First-author only</label>`;
     bar.querySelectorAll(".chip").forEach(b => (b.onclick = () => { state.tag = b.dataset.t || null; drawBar(); draw(); }));
     bar.querySelector("input").onchange = e => { state.first = e.target.checked; draw(); };
@@ -50,11 +49,8 @@ function initPubs() {
 }
 
 function initThemes(setTag) {
-  $("#themes").innerHTML = THEMES.map(([t, name, desc]) => {
-    const n = PUBS.filter(p => p.tags.includes(t)).length;
-    return `<button class="theme" style="--c:var(--t-${t})" data-t="${t}"><h3>${name}</h3><p>${desc}</p>
-      <div class="count">${n}<small>paper${n === 1 ? "" : "s"}</small></div></button>`;
-  }).join("");
+  $("#themes").innerHTML = THEMES.map(([t, name, desc]) =>
+    `<button class="theme" style="--c:var(--t-${t})" data-t="${t}"><h3>${name}</h3><p>${desc}</p></button>`).join("");
   document.querySelectorAll(".theme").forEach(b => (b.onclick = () => {
     setTag(b.dataset.t);
     $("#publications").scrollIntoView({ behavior: "smooth" });
