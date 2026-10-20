@@ -44,8 +44,7 @@ a { color: var(--accent); }
 .site-nav a.cv-btn:hover { background: var(--accent-dark); }
 
 /* ---------- hero ---------- */
-.hero { border-bottom: 1px solid var(--line);
-  background: radial-gradient(ellipse 60% 80% at 0% 0%, #eaf6f3 0, transparent 65%), var(--bg); }
+.hero { border-bottom: 1px solid var(--line); background: var(--bg); }
 .hero-grid { display: grid; grid-template-columns: 1fr 210px; gap: 3rem; align-items: start; padding-top: 48px; padding-bottom: 64px; }
 .hero h1 { font-family: Fraunces, Georgia, serif; font-weight: 500; font-size: 3.1rem; line-height: 1.08;
   margin: 0 0 1.1rem; letter-spacing: -.02em; }
